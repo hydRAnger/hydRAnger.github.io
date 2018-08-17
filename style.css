@@ -1,2 +1,4 @@
---background-gradient-cold: linear-gradient(to bottom, #041160, #780105);
---background-gradient-warm: linear-gradient(to bottom right, #041160, #780105);
+:root {
+  --background-gradient-cold: linear-gradient(to bottom, #041160, #780105);
+  --background-gradient-warm: linear-gradient(to bottom right, #041160, #780105);
+}
