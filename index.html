@@ -813,8 +813,8 @@ ul.courses li:hover {
     			 			<ul class="keywords">
     				<li>HTML, CSS, JavaScript(&quot;Vanilla JS&quot;)</li>
     				<li>Functional programming</li>
-    				<li>React, Redux</li>
-    				<li>Docker, Nginx, Node.js, RESTful API</li>
+    				<li>React, Redux, Angular</li>
+    				<li>Docker, Nginx, Node.js, RESTful and GraphQL API</li>
     			</ul>
     		</div>
     	</section>
@@ -831,6 +831,40 @@ ul.courses li:hover {
             <label for="work-item-0"></label>
     
     			<header>
+    				<div class="position">Lead Front-End Developer</div>
+    				<div class="company">PXN & INBlockchain</div>
+    				<div class="date">
+    				  <span class="startDate">May 2018</span> 
+                      <span class="endDate"> - present</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+              <a target="_blank" href="https://pxn.one/">https://pxn.one/</a>
+            </span>
+        	<span class="website" style="padding-left: 10px;">
+        	  <a target="_blank" href="http://www.inblockchain.com/">http://www.inblockchain.com/</a>
+            </span>
+            <div class="item" id="work-item">
+                <div class="summary">
+                  <p><p>PXN (Peatio eXchange Network) is a Cloud Cryptocurrency Trading Engine services.</p></p>
+                </div>
+                <ul class="highlights">
+                    <li><p>Maintain PXN's cryptocurrency exchange(use Angular6).</p></li>
+                    <li><p>Migrate PXN's front-end from monolithic to microservice architecture deployed on GCP.</p></li>
+                    <li><p>Theme and feature configure architecture for PXN's clients.</p></li>
+                    <li><p>SEO workflow for PXN's clients.</p></li>
+                    <li><p>Migrate PXN's SDK to OpenAPI-Driven design.</p></li>
+                </ul>
+        	</div>
+        </section>
+
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
     				<div class="position">Front-End Team Leader</div>
     				<div class="company">GeneDock</div>
     				<div class="date">
@@ -841,23 +875,24 @@ ul.courses li:hover {
     			
         	<span class="website">
         		<a target="_blank" href="https://www.genedock.com/">https://www.genedock.com/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>GeneDock is a cloud-based PaaS for organizations to store and analyze their bioinformatic data.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Refactor old static site to client-side rendering SPA (React+Redux), make components decoupling and reusable.</p></li>
-                <li><p>Replace Flask web framework with Node.js, make front-end tool chain more systematical.</p></li>
-                <li><p>Cooperate with designer on UI/UX design and theme/style configuration.</p></li>
-                <li><p>Rewrite build workflow in gulp + webpack. Optimize deployment based on Docker Compose for multi-container orchestration.</p></li>
-                <li><p>Managing parallel project progress (1-3 developers per project). Organizing code review and pair programming in the team.</p></li>
-            </ul>
+            </span>
+            <div class="item" id="work-item">
+                <div class="summary">
+                  <p><p>GeneDock is a cloud-based PaaS for organizations to store and analyze their bioinformatic data.</p></p>
+                </div>
+                <ul class="highlights">
+                    <li><p>Migrate GeneDock's front-end from static site to client-side rendering SPA (React + Redux).</p></li>
+                    <li><p>Replace Flask with Node.js, make tool chain more systematical.</p></li>
+                    <li><p>Cooperate with designer on UI/UX design and theme/style configuration.</p></li>
+                    <li><p>Build/Deployment workflow (gulp + webpack + Docker Compose) for multi-container orchestration.</p></li>
+                    <li><p>Managing parallel project progress (1-3 developers per project). Organizing code review and pair programming in the team.</p></li>
+                </ul>
         	</div>
         </section>
         <section class="work-item">
     
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
     
     			<header>
     				<div class="position">Front-End Web Developer</div>
@@ -873,30 +908,31 @@ ul.courses li:hover {
         	</span>
         	<span class="website" style="padding-left: 10px;">
         		<a target="_blank" href="http://csphere.cn/">http://csphere.cn/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Nicescale is a SaaS for Linux hosts management (physical or VM).</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Involved in homepage and platform development.</p></li>
-                <li><p>Rewrite the platform, use React-Bootstrap as component framework.</p></li>
-                <li><p>Upgrade the platform from React v0.12 to v0.14, introduced Flux architecture.</p></li>
-            </ul>
-            <div class="summary">
-              <p><p>cSphere is a PaaS for Docker container management.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Design API interfaces with backend engineer.</p></li>
-                <li><p>Introduce Immutable.js, make data model more intuitive.</p></li>
-                <li><p>Involved platform's continuous integration and auto-deployment workflow (based on CircleCI + Docker).</p></li>
-                <li><p>Upgrade from Flux to Redux, make a simpler unidirectional data flow.</p></li>
-            </ul>
+            </span>
+            <div class="item" id="work-item">
+                <div class="summary">
+                  <p><p>Nicescale is a SaaS for Linux hosts management (physical or VM).</p></p>
+                </div>
+                <ul class="highlights">
+                    <li><p>Homepage and platform development.</p></li>
+                    <li><p>Rewrite platform use React-Bootstrap as component framework.</p></li>
+                    <li><p>Upgrade from React v0.12 to v0.14, introduced Flux architecture.</p></li>
+                </ul>
+                <div class="summary">
+                  <p><p>cSphere is a PaaS for Docker container management.</p></p>
+                </div>
+                <ul class="highlights">
+                    <li><p>Design API with backend engineer.</p></li>
+                    <li><p>Introduce Immutable.js, make data model more intuitive.</p></li>
+                    <li><p>Optimize platform's CI/CD workflow (CircleCI + Docker).</p></li>
+                    <li><p>Upgrade from Flux to Redux, make a simpler unidirectional data flow.</p></li>
+                </ul>
         	</div>
         </section>
         <section class="work-item">
     
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
     
     			<header>
     				<div class="position">R&amp;D Engineer</div>
@@ -912,8 +948,8 @@ ul.courses li:hover {
               <p><p>"混沌之地" is a mythology browser game.</p></p>
             </div>
             <ul class="highlights">
-                <li><p>Involved in client-side(ActionScript3, Starling, HTML5) and server-side(Ruby, MongoDB) development.</p></li>
-                <li><p>Develop and maintain Web tools(HTML+JavaScript) for designers and artists, include map editor and effect script editor.</p></li>
+                <li><p>Client-side(ActionScript3, Starling, HTML5) and server-side(Ruby, MongoDB) development.</p></li>
+                <li><p>Develop internal tools(HTML+JavaScript) for designers and artists, like map and effect-script editor.</p></li>
             </ul>
         	</div>
         </section>
